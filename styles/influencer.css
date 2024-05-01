@@ -1,0 +1,193 @@
+/* font styles section */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+
+
+/* common styles section  */
+:root{
+    --primery-color:#18191F; 
+    --discription-font-size:1rem ;
+    --title-font-size:1.5rem;
+    --btn-primery-color:#E02C6D;
+}
+
+/* header section styles */
+header{
+    margin:88px 120px;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content:space-around;
+    background-color:beige;
+    gap: 133px;
+    margin-bottom: 30px;
+   
+}
+
+ .header-title{
+      font-size:1.5rem ;
+      font-weight: 700;
+      color: #3A3A3A;
+ }
+ .header-discription{
+    color: #3A3A3A;
+    font-size: var(--discription-font-size);
+    font-weight: 600;
+
+ }
+ .btn-primery{
+    background-color: var(--btn-primery-color);
+    color: white;
+    border-radius: 41px;
+    padding: 10px 24px;
+    margin: 20px ;
+ }
+.nav>ul{
+    display: flex;
+    
+
+}
+.nav li {
+    list-style: none;
+   margin-right: 2.1rem;
+   font-size: 1rem;
+   font-weight: 600;
+ 
+
+}
+.nav a{
+    text-decoration: none;
+    color: #3A3A3A;
+} 
+
+.header-contant-container{
+    display: flex;
+    gap: 133px;
+    background-color: rgb(252, 247, 240);
+    padding: 50px;
+}
+.header-content{
+    padding-top: 80px;
+    
+    }
+.content-title{
+   font-size:52px;
+
+  }  
+.header-img{
+    padding-top: 22px;
+}
+.header-img img{
+    width:500px;
+    height: 500px;
+    background-image: url('../images/Circle\ design.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+}
+/* main{
+    margin: 10px 160px;
+} */
+/* logo section styles */
+
+.logo-section ul{
+   display: flex;
+   justify-content: space-evenly;
+}
+.logo-section li {
+    margin:100px 0px;
+   
+}
+/* populer container section */
+
+.populer-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: var(--primery-color);
+
+}
+.populer-section-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    /* padding: 0px 80px; */
+    margin: 0px 196px;
+}     
+
+.card{
+    /* border: 2px solid tomato; */
+    width: 329px;
+    height: 476px;
+    
+}
+.card img, h2, h4, h5,p {
+    padding-left: 15px;
+    gap: 6px;
+   
+}
+.card-title{
+    color: var(--primery-color);
+    font-size: 28px;
+    
+}
+.price{
+    font-size: 24px;
+    color: var(--primery-color);
+    
+}
+.card-discription{
+       color: var(--primery-color);
+       font-size: var(--discription-font-size);
+
+}
+
+/* ratting section styles */
+.checked {
+    color: orange;
+  }
+  
+
+  /* featured-container styles */
+.featured-container{
+ display: flex;
+ gap: 50px;
+ margin: 100px  165px;
+
+}
+.featured-contant{
+    border: 2px solid tomato;
+    padding-right:100px;
+}
+.featered-title{
+    font-size: 38px
+}
+.featured-discription{
+    font-size: 16px;
+    color: #6C6C6C;
+    
+}
+ footer{
+    background-color: #3A3A3A;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+ }
+ .social-icon ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 100px;
+ }
+ .social-icon img  {
+    padding-right: 35px;
+
+ }
+ .footer-discription{
+    font-size: 24px;
+    font-weight: 700;
+    color: #D9DBE1;
+ }
