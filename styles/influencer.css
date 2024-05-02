@@ -191,3 +191,117 @@ header{
     font-weight: 700;
     color: #D9DBE1;
  }
+
+ @media screen and (max-width:576px) {
+     header{
+        text-align: center;
+        margin:0px;
+     }
+    
+    
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        
+    }
+    .nav li{
+        margin: 10px;    
+    }
+
+    .header-contant-container{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .header-content{
+     padding-top:5px ;
+    
+    }
+    .content-title{
+        font-size: 28px;
+        text-align: center;
+        font-weight: 800;
+    }
+    .contant-discription{
+         text-align: center;
+         font-size: 14px;
+         font-weight: 500;
+         padding:0px;
+         
+    }
+
+    .header-img img{
+        width: 250px;
+        height: 250px;
+        /* padding-top: 30px; */
+        background-image: url('../images/Circle\ design.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:400px;
+    
+    }
+    .logo-section{
+        padding: 10px 40px;
+    }
+      .logo-section ul{
+        display: flex;
+        flex-wrap: wrap;
+        
+      }
+
+    .logo-section li {
+        margin:0px;
+    }
+
+    .logo-section img{
+       margin: 10px;
+       width: 51.167px;
+       height: 15.241px;   
+    }
+
+    .populer-title{
+        text-align: center;
+
+
+    }
+    .populer-section-container{
+        display:flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0px;
+
+    }
+
+    .card{
+        width: 320px;
+        height: 470px;
+
+    }
+    .featured-container{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5px;
+        margin:0px;
+    }
+    .featured-container img{
+        width: 299px;
+        height: 188px;
+        padding: 20px;
+    }
+    .featured-contant{
+        padding-right:0px;
+        margin-top: 100px;
+        text-align: center;
+        
+    }
+    .featered-title{
+        padding:50 px;
+        font-size: 24px;
+    }
+    .featured-discription{
+        font-size: 16px;
+        color: #6C6C6C;
+        
+    }
+ }
